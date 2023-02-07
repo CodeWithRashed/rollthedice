@@ -3,10 +3,10 @@
 function rollDice() {
     
     var randomNumberPlOne = Math.floor( (Math.random() * 6) + 1 );
-    var diceImgForPlOne = "images/dice" +randomNumberPlOne +".png"
+    var diceImgForPlOne = "dice" +randomNumberPlOne +".png"
     
     var randomNumberPlTwo = Math.floor( (Math.random() * 6) + 1 );
-    var diceImgForPlTwo = "images/dice" +randomNumberPlTwo +".png"
+    var diceImgForPlTwo = "dice" +randomNumberPlTwo +".png"
 
     document.querySelector(".img1").setAttribute("src", diceImgForPlOne);
     document.querySelector(".img2").setAttribute("src", diceImgForPlTwo);
