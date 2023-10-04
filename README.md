@@ -1,4 +1,4 @@
-Live link: 
+Live Link : [\[Github\]](https://codewithrashed.github.io/rollthedice/)
 
 # Dice Game
 1. This is a simple two-player dice game implemented in JavaScript.
