@@ -33,6 +33,19 @@ img {
   width: 80%;
 }
 
+.btn{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn button{
+  padding: 10px 30px;
+  background-color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  font-size: 25px;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;

@@ -22,13 +22,9 @@ if (randomNumberPlOne > randomNumberPlTwo ) {
 }
   }
 
-  window.onbeforeunload = function() {
-    rollDice();
-  };
-  
 
-
-  window.onload = function() {
-    rollDice();
-  };
-  
+document.querySelector(".btn").addEventListener(
+  "click",function () {
+    rollDice()
+  }
+)
